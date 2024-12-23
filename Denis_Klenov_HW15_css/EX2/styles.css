@@ -1,0 +1,96 @@
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    border-bottom: 2px solid #444;
+}
+
+
+.logo {
+    margin-right: 50px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+}
+
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.nav-links a:hover {
+    background-color: #555; /* Фон наведения на ссылку */
+    color: #ffcc00;
+}
+
+
+.nav-links .dropdown {
+    position: relative;
+}
+
+.nav-links .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    min-width: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    z-index: 1001;
+    margin-top: 5px;
+}
+
+
+
+.nav-links .dropdown-content a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+
+.nav-links .dropdown-content a:hover {
+    background-color: #555;
+}
+
+.nav-links .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+main {
+    margin-top: 60px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.dropdown {
+    margin-top: 10px;
+}
+

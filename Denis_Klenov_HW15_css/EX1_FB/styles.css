@@ -27,6 +27,7 @@ body {
 
 .input-field {
     width: 100%;
+    max-width: 300px;
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
@@ -41,7 +42,8 @@ body {
 }
 
 .login-button {
-    width: 400px; 
+    width: 100%;
+    max-width: 325px;
     padding: 10px;
     background-color: #1877f2;
     color: white;
@@ -65,4 +67,38 @@ body {
 
 .forgot-password:hover {
     text-decoration: underline;
+}
+
+.reset-password-button {
+    width: 100%;
+    max-width: 325px;
+    padding: 10px;
+    background-color: #42b72a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.reset-password-button:hover {
+    background-color: #36a420;
+}
+
+.new-account-button {
+    width: 100%;
+    max-width: 325px;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.new-account-button:hover {
+    background-color: #4caf50;
 }
