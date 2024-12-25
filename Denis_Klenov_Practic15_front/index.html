@@ -8,418 +8,445 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <!-- Header -->
-    <header class="sticky-top bg-light shadow">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="#hero">Ресторан</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item"><a class="nav-link" href="#about">О ресторане</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#menu">Меню</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#testimonials">Отзывы</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
-                        <li class="nav-item"><a class="nav-link btn btn-primary text-white" href="#reservation">Бронирование</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- Главная -->
-    <section id="hero" class="text-center text-white d-flex align-items-center justify-content-center">
-        <div>
-            <h1>Изысканная кухня для гурманов</h1>
-            <p>Лучшие блюда для истинных ценителей мировых кухонь!</p>
-            <a href="#menu" class="btn btn-outline-light me-2">Посмотреть меню</a>
-            <a href="#reservation" class="btn btn-primary">Забронировать столик</a>
-        </div>
-    </section>
-
-    <!-- о анс -->
-    <section id="about" class="py-5">
-        <div class="container text-center">
-            <h2>О ресторане</h2>
-            <p>Наш ресторан предлагает уникальное сочетание вкусов и атмосферы.</p>
-            <div class="row">
-                <div class="col-md-4"><img src="https://static.tildacdn.com/tild3661-3133-4863-a265-383965306461/IMG_6103.jpg" class="img-fluid rounded" alt="Интерьер"></div>
-                <div class="col-md-4"><img src="https://omskzdes.ru/storage/c/2023/10/18/1697626331_853661_30.jpg" class="img-fluid rounded" alt="Команда"></div>
-                <div class="col-md-4"><img src="https://cdnstatic.rg.ru/crop905x604/uploads/images/207/25/94/Eclipse070520_063.jpg" class="img-fluid rounded" alt="Шеф-повар"></div>
+<!-- Header -->
+<header class="sticky-top bg-light shadow">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">Ресторан</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">О ресторане</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#menu">Меню</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimonials">Отзывы</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Контакты</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-primary text-white"
+                                            href="#reservation">Бронирование</a></li>
+                </ul>
             </div>
         </div>
-    </section>
+    </nav>
+</header>
 
-    <!-- меню -->
-    <section id="menu" class="py-5 bg-light">
-  <div class="container">
-    <h2 class="text-center mb-5">Меню</h2>
-<!-- Закуски -->
-<h3 class="mb-4">Закуски</h3>
-<div class="row justify-content-center mb-5">
-  <!-- Брускетта -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO5_hN6cCRC4-_2Xf4mou8K2lBOCkJyBJMGg&s" class="card-img-top" alt="Закуска 1">
-      <div class="card-body">
-        <h5 class="card-title">Брускетта</h5>
-        <p class="card-text">
-          Ароматные тосты с помидорами, базиликом и чесноком.
-        </p>
-        <p class="text-primary fw-bold">1200₸</p>
-      </div>
+<!-- Главная -->
+<section id="hero" class="text-center text-white d-flex align-items-center justify-content-center">
+    <div>
+        <h1>Изысканная кухня для гурманов</h1>
+        <p>Лучшие блюда для истинных ценителей мировых кухонь!</p>
+        <a href="#menu" class="btn btn-outline-light me-2">Посмотреть меню</a>
+        <a href="#reservation" class="btn btn-primary">Забронировать столик</a>
     </div>
-  </div>
-
-  <!-- Салат Цезарь -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDSojWAaV2CgMY4oXHlK0Yv03fYvAk3_hYdA&s" class="card-img-top" alt="Закуска 2">
-      <div class="card-body">
-        <h5 class="card-title">Салат Цезарь</h5>
-        <p class="card-text">
-          Классический салат с курицей, сухариками и соусом Цезарь.
-        </p>
-        <p class="text-primary fw-bold">1500₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Суп Минестроне -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://images.gastronom.ru/fd2bK388T75Vn-hENthU5mNe-7vn32d3H9xReyaDLFs/pr:recipe-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzcwN2ZhZTRhLWJmMmMtNDk3Mi1iODNmLWM2NDcyYjFhNTVjMi5qcGc.webp" class="card-img-top" alt="Закуска 3">
-      <div class="card-body">
-        <h5 class="card-title">Суп Минестроне</h5>
-        <p class="card-text">
-          Лёгкий овощной суп по традиционному итальянскому рецепту.
-        </p>
-        <p class="text-primary fw-bold">1300₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Спринг-роллы -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJdHhG79Ffpooj-6bfLAaU_kGGwlsqPg4eA&s" class="card-img-top" alt="Закуска 4">
-      <div class="card-body">
-        <h5 class="card-title">Спринг-роллы</h5>
-        <p class="card-text">
-          Рисовая бумага, свежие овощи и креветки с соусом чили.
-        </p>
-        <p class="text-primary fw-bold">1400₸</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Основные блюда -->
-<h3 class="mb-4">Основные блюда</h3>
-<div class="row justify-content-center mb-5">
-  <!-- Стейк Рибай -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://static.tildacdn.com/tild3438-3565-4664-b739-633639313432/rib.jpg" class="card-img-top" alt="Основное блюдо 1">
-      <div class="card-body">
-        <h5 class="card-title">Стейк Рибай</h5>
-        <p class="card-text">
-          Сочное мясо, обжаренное до желаемой степени прожарки.
-        </p>
-        <p class="text-primary fw-bold">4000₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Паста Карбонара -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://eda.ru/images/RecipeOpenGraph/1200x630/pasta-karbonara-pasta-alla-carbonara_50865_ogimage.jpg" class="card-img-top" alt="Основное блюдо 2">
-      <div class="card-body">
-        <h5 class="card-title">Паста Карбонара</h5>
-        <p class="card-text">
-          Паста со сливочным соусом, беконом и пармезаном.
-        </p>
-        <p class="text-primary fw-bold">2000₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Лосось на гриле -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://weber-russia.ru/media/blog_images/id272_recipe_269/recipe_269.png" class="card-img-top" alt="Основное блюдо 3">
-      <div class="card-body">
-        <h5 class="card-title">Лосось на гриле</h5>
-        <p class="card-text">
-          Нежное филе лосося с овощным гарниром.
-        </p>
-        <p class="text-primary fw-bold">3500₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Ризотто с грибами -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://gotovim-doma.ru/images/recipe/9/15/91586a34e2679857e6a5edc1c6d4619e.jpg" class="card-img-top" alt="Основное блюдо 4">
-      <div class="card-body">
-        <h5 class="card-title">Ризотто с грибами</h5>
-        <p class="card-text">
-          Классический итальянский ризотто с белыми грибами и сливками.
-        </p>
-        <p class="text-primary fw-bold">2200₸</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Десерты -->
-<h3 class="mb-4">Десерты</h3>
-<div class="row justify-content-center mb-5">
-  <!-- Тирамису -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://i.ytimg.com/vi/3gp50W4Rlm4/maxresdefault.jpg" class="card-img-top" alt="Десерт 1">
-      <div class="card-body">
-        <h5 class="card-title">Тирамису</h5>
-        <p class="card-text">
-          Нежный итальянский десерт с сыром маскарпоне.
-        </p>
-        <p class="text-primary fw-bold">1500₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Чизкейк -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqfgwyLZRbQRbj50jB9-nbthkh_EexsevM9Q&s" class="card-img-top" alt="Десерт 2">
-      <div class="card-body">
-        <h5 class="card-title">Чизкейк</h5>
-        <p class="card-text">
-          Классический сливочный чизкейк с ягодным соусом.
-        </p>
-        <p class="text-primary fw-bold">1600₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Брауни -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://yasensvit.ua/uploads/recipes/prev/638609e6e17b1.jpg" class="card-img-top" alt="Десерт 3">
-      <div class="card-body">
-        <h5 class="card-title">Брауни</h5>
-        <p class="card-text">
-          Шоколадный десерт с орехами и мороженым.
-        </p>
-        <p class="text-primary fw-bold">1400₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Мороженое -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://ss.sport-express.ru/userfiles/materials/201/2015482/volga.jpg" class="card-img-top" alt="Десерт 4">
-      <div class="card-body">
-        <h5 class="card-title">Мороженое</h5>
-        <p class="card-text">
-          Три шарика на выбор: ваниль, клубника, шоколад.
-        </p>
-        <p class="text-primary fw-bold">900₸</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Напитки -->
-<h3 class="mb-4">Напитки</h3>
-<div class="row justify-content-center">
-  <!-- Мохито -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUiQe4sIMLmgXROPbKoH2kM0R0Jfb5tsGskw&s" class="card-img-top" alt="Напиток 1">
-      <div class="card-body">
-        <h5 class="card-title">Мохито</h5>
-        <p class="card-text">
-          Освежающий напиток с лаймом и мятой.
-        </p>
-        <p class="text-primary fw-bold">1000₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Лимонад -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://zira.uz/wp-content/uploads/2019/05/citrusoviy-limonad-2.jpg" class="card-img-top" alt="Напиток 2">
-      <div class="card-body">
-        <h5 class="card-title">Лимонад</h5>
-        <p class="card-text">
-          Домашний лимонад с лимоном и мятой.
-        </p>
-        <p class="text-primary fw-bold">800₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Кофе -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6C5rC6S054wD80kf71S-7GBsjLdZaBE6UQQ&s" class="card-img-top" alt="Кофе">
-      <div class="card-body">
-        <h5 class="card-title">Кофе</h5>
-        <p class="card-text">
-          Классический эспрессо или капучино на выбор.
-        </p>
-        <p class="text-primary fw-bold">700₸</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Чай -->
-  <div class="col-md-3 mb-4">
-    <div class="card h-100">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ayJlddYBp5cPeL_lYiM8CAeksEdbAV0fLHsUyAdGFTpiYj4WVtagoz098kYzip-xfyg&usqp=CAU" class="card-img-top" alt="Чай">
-      <div class="card-body">
-        <h5 class="card-title">Чай</h5>
-        <p class="card-text">
-          Чай с разными вкусами: зеленый, черный, травяной.
-        </p>
-        <p class="text-primary fw-bold">500₸</p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-    <section id="testimonials" class="py-5">
-        <div class="container text-center">
-            <h2>Отзывы</h2>
-            <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <p>Это лучший сайт в мире!</p>
-                        <small>Человек придумавший веб</small>
-                    </div>
-                    <div class="carousel-item">
-                    <p>Я люблю тут есть!</p>
-                    <small>Тестов Тест</small>
-                </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Предыдущий</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Следующий</span>
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <!-- Бронь -->
-    <section id="reservation" class="py-5 bg-light">
-        <div class="container text-center">
-            <h2>Забронировать столик</h2>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reservationModal">Открыть форму бронирования</button>
-        </div>
-    </section>
-
-    <!-- Резерв -->
-    <div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="reservationModalLabel">Форма бронирования</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form id="reservationForm">
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Имя</label>
-                            <input type="text" class="form-control" id="name" name="name" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="date" class="form-label">Дата</label>
-                            <input type="date" class="form-control" id="date" name="date" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="time" class="form-label">Время</label>
-                            <input type="time" class="form-control" id="time" name="time" required>
-                        </div>
-                        <div class="mb-3">
-                            <label for="people" class="form-label">Количество человек</label>
-                            <input type="number" class="form-control" id="people" name="people" min="1" max="20" required>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Забронировать</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-<!-- Конт -->
-<section id="contacts" class="py-5">
-  <div class="container text-center">
-    <h2 class="mb-4">Контакты</h2>
-    <p class="mb-1">Адрес: г. Алматы, ул. Ресторанова, д. 2</p>
-    <p class="mb-1">Телефон: +7 (727) 123-45-67</p>
-    <p class="mb-3">Email: info@restik.kz</p>
-
-    <a href="tel:+77271234567" class="btn btn-success me-2">Позвонить</a>
-    <a href="mailto:info@restik.kz" class="btn btn-outline-primary">Напишите нам!</a>
-  </div>
 </section>
 
-    <!-- Подвал -->
-    <footer class="py-4 bg-dark text-white text-center">
-        <p>2024 Рестик. Все права защищены.</p>
-    </footer>
+<!-- о анс -->
+<section id="about" class="py-5">
+    <div class="container text-center">
+        <h2>О ресторане</h2>
+        <p>Наш ресторан предлагает уникальное сочетание вкусов и атмосферы.</p>
+        <div class="row">
+            <div class="col-md-4"><img
+                    src="https://static.tildacdn.com/tild3661-3133-4863-a265-383965306461/IMG_6103.jpg"
+                    class="img-fluid rounded" alt="Интерьер"></div>
+            <div class="col-md-4"><img src="https://omskzdes.ru/storage/c/2023/10/18/1697626331_853661_30.jpg"
+                                       class="img-fluid rounded" alt="Команда"></div>
+            <div class="col-md-4"><img
+                    src="https://cdnstatic.rg.ru/crop905x604/uploads/images/207/25/94/Eclipse070520_063.jpg"
+                    class="img-fluid rounded" alt="Шеф-повар"></div>
+        </div>
+    </div>
+</section>
+
+<!-- меню -->
+<section id="menu" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Меню</h2>
+        <!-- Закуски -->
+        <h3 class="mb-4">Закуски</h3>
+        <div class="row justify-content-center mb-5">
+            <!-- Брускетта -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO5_hN6cCRC4-_2Xf4mou8K2lBOCkJyBJMGg&s"
+                         class="card-img-top" alt="Закуска 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Брускетта</h5>
+                        <p class="card-text">
+                            Ароматные тосты с помидорами, базиликом и чесноком.
+                        </p>
+                        <p class="text-primary fw-bold">1200₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Салат Цезарь -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDSojWAaV2CgMY4oXHlK0Yv03fYvAk3_hYdA&s"
+                         class="card-img-top" alt="Закуска 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Салат Цезарь</h5>
+                        <p class="card-text">
+                            Классический салат с курицей, сухариками и соусом Цезарь.
+                        </p>
+                        <p class="text-primary fw-bold">1500₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Суп Минестроне -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.gastronom.ru/fd2bK388T75Vn-hENthU5mNe-7vn32d3H9xReyaDLFs/pr:recipe-cover-image/g:ce/rs:auto:0:0:0/L2Ntcy9hbGwtaW1hZ2VzLzcwN2ZhZTRhLWJmMmMtNDk3Mi1iODNmLWM2NDcyYjFhNTVjMi5qcGc.webp"
+                         class="card-img-top" alt="Закуска 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Суп Минестроне</h5>
+                        <p class="card-text">
+                            Лёгкий овощной суп по традиционному итальянскому рецепту.
+                        </p>
+                        <p class="text-primary fw-bold">1300₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Спринг-роллы -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQJdHhG79Ffpooj-6bfLAaU_kGGwlsqPg4eA&s"
+                         class="card-img-top" alt="Закуска 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Спринг-роллы</h5>
+                        <p class="card-text">
+                            Рисовая бумага, свежие овощи и креветки с соусом чили.
+                        </p>
+                        <p class="text-primary fw-bold">1400₸</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Основные блюда -->
+        <h3 class="mb-4">Основные блюда</h3>
+        <div class="row justify-content-center mb-5">
+            <!-- Стейк Рибай -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://static.tildacdn.com/tild3438-3565-4664-b739-633639313432/rib.jpg"
+                         class="card-img-top" alt="Основное блюдо 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Стейк Рибай</h5>
+                        <p class="card-text">
+                            Сочное мясо, обжаренное до желаемой степени прожарки.
+                        </p>
+                        <p class="text-primary fw-bold">4000₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Паста Карбонара -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://eda.ru/images/RecipeOpenGraph/1200x630/pasta-karbonara-pasta-alla-carbonara_50865_ogimage.jpg"
+                         class="card-img-top" alt="Основное блюдо 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Паста Карбонара</h5>
+                        <p class="card-text">
+                            Паста со сливочным соусом, беконом и пармезаном.
+                        </p>
+                        <p class="text-primary fw-bold">2000₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Лосось на гриле -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://weber-russia.ru/media/blog_images/id272_recipe_269/recipe_269.png"
+                         class="card-img-top" alt="Основное блюдо 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Лосось на гриле</h5>
+                        <p class="card-text">
+                            Нежное филе лосося с овощным гарниром.
+                        </p>
+                        <p class="text-primary fw-bold">3500₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ризотто с грибами -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://gotovim-doma.ru/images/recipe/9/15/91586a34e2679857e6a5edc1c6d4619e.jpg"
+                         class="card-img-top" alt="Основное блюдо 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Ризотто с грибами</h5>
+                        <p class="card-text">
+                            Классический итальянский ризотто с белыми грибами и сливками.
+                        </p>
+                        <p class="text-primary fw-bold">2200₸</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Десерты -->
+        <h3 class="mb-4">Десерты</h3>
+        <div class="row justify-content-center mb-5">
+            <!-- Тирамису -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://i.ytimg.com/vi/3gp50W4Rlm4/maxresdefault.jpg" class="card-img-top" alt="Десерт 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Тирамису</h5>
+                        <p class="card-text">
+                            Нежный итальянский десерт с сыром маскарпоне.
+                        </p>
+                        <p class="text-primary fw-bold">1500₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Чизкейк -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqfgwyLZRbQRbj50jB9-nbthkh_EexsevM9Q&s"
+                         class="card-img-top" alt="Десерт 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Чизкейк</h5>
+                        <p class="card-text">
+                            Классический сливочный чизкейк с ягодным соусом.
+                        </p>
+                        <p class="text-primary fw-bold">1600₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Брауни -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://yasensvit.ua/uploads/recipes/prev/638609e6e17b1.jpg" class="card-img-top"
+                         alt="Десерт 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Брауни</h5>
+                        <p class="card-text">
+                            Шоколадный десерт с орехами и мороженым.
+                        </p>
+                        <p class="text-primary fw-bold">1400₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Мороженое -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://ss.sport-express.ru/userfiles/materials/201/2015482/volga.jpg"
+                         class="card-img-top" alt="Десерт 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Мороженое</h5>
+                        <p class="card-text">
+                            Три шарика на выбор: ваниль, клубника, шоколад.
+                        </p>
+                        <p class="text-primary fw-bold">900₸</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Напитки -->
+        <h3 class="mb-4">Напитки</h3>
+        <div class="row justify-content-center">
+            <!-- Мохито -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUiQe4sIMLmgXROPbKoH2kM0R0Jfb5tsGskw&s"
+                         class="card-img-top" alt="Напиток 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Мохито</h5>
+                        <p class="card-text">
+                            Освежающий напиток с лаймом и мятой.
+                        </p>
+                        <p class="text-primary fw-bold">1000₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Лимонад -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://zira.uz/wp-content/uploads/2019/05/citrusoviy-limonad-2.jpg" class="card-img-top"
+                         alt="Напиток 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Лимонад</h5>
+                        <p class="card-text">
+                            Домашний лимонад с лимоном и мятой.
+                        </p>
+                        <p class="text-primary fw-bold">800₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Кофе -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6C5rC6S054wD80kf71S-7GBsjLdZaBE6UQQ&s"
+                         class="card-img-top" alt="Кофе">
+                    <div class="card-body">
+                        <h5 class="card-title">Кофе</h5>
+                        <p class="card-text">
+                            Классический эспрессо или капучино на выбор.
+                        </p>
+                        <p class="text-primary fw-bold">700₸</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Чай -->
+            <div class="col-md-3 mb-4">
+                <div class="card h-100">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ayJlddYBp5cPeL_lYiM8CAeksEdbAV0fLHsUyAdGFTpiYj4WVtagoz098kYzip-xfyg&usqp=CAU"
+                         class="card-img-top" alt="Чай">
+                    <div class="card-body">
+                        <h5 class="card-title">Чай</h5>
+                        <p class="card-text">
+                            Чай с разными вкусами: зеленый, черный, травяной.
+                        </p>
+                        <p class="text-primary fw-bold">500₸</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
+        <section id="testimonials" class="py-5">
+            <div class="container text-center">
+                <h2>Отзывы</h2>
+                <div id="carouselTestimonials" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <p>Это лучший сайт в мире!</p>
+                            <small>Человек придумавший веб</small>
+                        </div>
+                        <div class="carousel-item">
+                            <p>Я люблю тут есть!</p>
+                            <small>Тестов Тест</small>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Предыдущий</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Следующий</span>
+                    </button>
+                </div>
+            </div>
+        </section>
 
-      <!-- СНЕГ СКАЧАЛ ОТСЮДА https://codepen.io/codeconvey/pen/xRzQay -->>
- <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-  <div class="snowflake">
-  ❅
-  </div>
-  <div class="snowflake">
-  ❆
-  </div>
-  <div class="snowflake">
-  ❄
-  </div>
-</div>
+        <!-- Бронь -->
+        <section id="reservation" class="py-5 bg-light">
+            <div class="container text-center">
+                <h2>Забронировать столик</h2>
+                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reservationModal">Открыть форму
+                    бронирования
+                </button>
+            </div>
+        </section>
+
+        <!-- Резерв -->
+        <div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel"
+             aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="reservationModalLabel">Форма бронирования</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="reservationForm">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Имя</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="date" class="form-label">Дата</label>
+                                <input type="date" class="form-control" id="date" name="date" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="time" class="form-label">Время</label>
+                                <input type="time" class="form-control" id="time" name="time" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="people" class="form-label">Количество человек</label>
+                                <input type="number" class="form-control" id="people" name="people" min="1" max="20"
+                                       required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Забронировать</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Конт -->
+        <section id="contacts" class="py-5">
+            <div class="container text-center">
+                <h2 class="mb-4">Контакты</h2>
+                <p class="mb-1">Адрес: г. Алматы, ул. Ресторанова, д. 2</p>
+                <p class="mb-1">Телефон: +7 (727) 123-45-67</p>
+                <p class="mb-3">Email: info@restik.kz</p>
+
+                <a href="tel:+77271234567" class="btn btn-success me-2">Позвонить</a>
+                <a href="mailto:info@restik.kz" class="btn btn-outline-primary">Напишите нам!</a>
+            </div>
+        </section>
+
+        <!-- Подвал -->
+        <footer class="py-4 bg-dark text-white text-center">
+            <p>2024 Рестик. Все права защищены.</p>
+        </footer>
+
+
+        <!-- СНЕГ СКАЧАЛ ОТСЮДА https://codepen.io/codeconvey/pen/xRzQay -->>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+        <div class="snowflake">
+            ❅
+        </div>
+        <div class="snowflake">
+            ❆
+        </div>
+        <div class="snowflake">
+            ❄
+        </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
