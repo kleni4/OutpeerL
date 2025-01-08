@@ -10,6 +10,7 @@ prompt.addEventListener('submit', handleSubmit);
 
 input.focus();
 
+// https://developer.mozilla.org/ru/docs/Web/API/Event/preventDefault
 function handleSubmit(event) {
     event.preventDefault();
 
